@@ -12,3 +12,4 @@ D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\obj\Debug\net8.0
 D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\obj\Debug\net8.0\LeagueAPI_Public.pdb
 D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\obj\Debug\net8.0\LeagueAPI_Public.genruntimeconfig.cache
 D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\obj\Debug\net8.0\ref\LeagueAPI_Public.dll
+D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\obj\Debug\net8.0\LeagueAPI_Public.sourcelink.json

@@ -63,11 +63,23 @@ static async Task PrintAPIResponseAsJSON(HttpClient client, String endpoint)
     Console.Write(json);
 }
 
-// Get API key from file (instead of storing directly in code)
+// Get API key from environment variable (for securitys sake)
 static string GetAPIKey()
 {
-    StreamReader sr = new StreamReader(@"D:\Bruger\Dokumenter\Projects\APIKeys\Personal Statistics Playground (LeagueAPI)/key.txt");
-    return sr.ReadToEnd();
+    try
+    {
+        var key = Environment.GetEnvironmentVariable("LEAGUE_PLAYGROUND_API_KEY");
+        if(string.IsNullOrEmpty(key))
+        {
+            throw new ArgumentNullException("API key not found");
+        }
+        return key;       
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+        throw;
+    }
 }
 
 
@@ -91,7 +103,7 @@ async Task<Account> Setup (HttpClient client)
     // Terminate if any input is invalid
     try
     {
-        if (string.IsNullOrEmpty(accName) || string.IsNullOrEmpty(accTag))
+        if(string.IsNullOrEmpty(accName) || string.IsNullOrEmpty(accTag))
         {
             throw new ArgumentException("Name or tag cannot be empty");
         }
@@ -212,7 +224,7 @@ void GatherAndOutputWinrateAndKDA(HttpClient client, Account acc, List<Match> ma
             {
                 KA += p.Kills + p.Assists;
                 D += p.Deaths;
-                if (p.Win) wins++; 
+                if(p.Win) wins++; 
             }
         }    
     }
@@ -236,7 +248,7 @@ void GatherAndOutputWinrateAndKDA(HttpClient client, Account acc, List<Match> ma
 async Task<List<String>> GatherRecentMatchIDs(HttpClient client, Account acc, int count)
 {
     // Clamp count within allowed range
-    if(count > 100) { count = 100;} else if (count < 0) { count = 0;}
+    if(count > 100) { count = 100;} else if(count < 0) { count = 0;}
 
     // Get match IDs from puuid
     try
