@@ -1,0 +1,14 @@
+D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\bin\Debug\net8.0\LeagueAPI_Public.exe
+D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\bin\Debug\net8.0\LeagueAPI_Public.deps.json
+D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\bin\Debug\net8.0\LeagueAPI_Public.runtimeconfig.json
+D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\bin\Debug\net8.0\LeagueAPI_Public.dll
+D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\bin\Debug\net8.0\LeagueAPI_Public.pdb
+D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\obj\Debug\net8.0\LeagueAPI_Public.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\obj\Debug\net8.0\LeagueAPI_Public.AssemblyInfoInputs.cache
+D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\obj\Debug\net8.0\LeagueAPI_Public.AssemblyInfo.cs
+D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\obj\Debug\net8.0\LeagueAPI_Public.csproj.CoreCompileInputs.cache
+D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\obj\Debug\net8.0\LeagueAPI_Public.dll
+D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\obj\Debug\net8.0\refint\LeagueAPI_Public.dll
+D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\obj\Debug\net8.0\LeagueAPI_Public.pdb
+D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\obj\Debug\net8.0\LeagueAPI_Public.genruntimeconfig.cache
+D:\Bruger\Dokumenter\Projects\LeagueAPI_Public\LeagueAPI_Public\obj\Debug\net8.0\ref\LeagueAPI_Public.dll
